@@ -1,0 +1,58 @@
+URxvt.font:                 xft:monospace:size=8
+URxvt.boldfont:             xft:monospace:pixelsize=8
+
+URxvt.saveLines:            12000
+
+URxvt.iso14755:             False
+URxvt.pointerBlank:         true
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+URxvt.cursorBlink:          true
+URxvt.cursorUnderline:      false
+URxvt.secondaryScreen:      1
+URxvt.secondaryScroll:      0
+
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:  chromium
+URxvt.url-select.underline: true
+URxvt.keysym.Control-V:     perl:clipboard:paste
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt.keysym.M-f:           ∮
+
+*.foreground:   #f8f8f2
+*.background:   #272822
+*.cursorColor:  #f92672
+!black
+*.color0:       #272822
+!red
+*.color1:       #f92672
+!green
+*.color2:       #a6e22e
+!yellow
+*.color3:       #e6db74
+!blue
+*.color4:       #66d9ef
+!magenta
+*.color5:       #fd5ff0
+!cyan
+*.color6:       #a1efe4
+!light grey
+*.color7:       #afb2a4
+!dark grey
+*.color8:       #404238
+!light red
+*.color9:       #ff99be
+!light green
+*.color10:      #e0ffa3
+!light yellow
+*.color11:      #fff6a3
+!light blue
+*.color12:      #b1ebf7
+!light magenta
+*.color13:      #fec2f9
+!light cyan
+*.color14:      #cffcf6
+!white
+*.color15:      #f8f8f2
